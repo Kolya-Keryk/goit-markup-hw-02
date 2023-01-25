@@ -1,0 +1,219 @@
+:root {
+}
+body {
+  font-family: "roboto", sans-serif;
+  background: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: #404bbf;
+}
+.address-tel:focus,
+.address-tel:hover {
+  color: #404bbf;
+}
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.address {
+}
+.address-list {
+}
+.address-item {
+}
+.address-mail {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-tel {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* --------------HERO */
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+}
+/* ----------------Flower */
+.flower {
+}
+.flower-list {
+}
+.flower-item {
+}
+.flower-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.flower-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* -------------APPLE */
+.apple {
+}
+.apple-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.apple-list {
+}
+.apple-item {
+}
+/*--------- SKY */
+.sky {
+}
+.sky-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.sky-list {
+}
+.sky-item {
+}
+.sky-headline {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.sky-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* --------------FOOTER */
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.row {
+}
+.row-list {
+}
+.row-item {
+}
+.row-btn {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+cursor: pointer;
+color: #FFFFFF;
+}
+.row-all-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.row-all-suptitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.row-one {
+}
+.row-one-list {
+}
+.row-one-item {
+}
+.row-one-item-title {
+}
+.row-one-item-suptitle {
+}
+.row-two {
+}
+.row-two-list {
+}
+.row-two-item {
+}
+.row-two-item-title {
+}
+.row-two-item-suptitle {
+}
+.row-three {
+}
+.row-three-list {
+}
+.row-three-item {
+}
+.row-three-item-title {
+}
+.row-three-item-suptitle {
+}
