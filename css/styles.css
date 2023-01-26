@@ -1,8 +1,12 @@
 :root {
+  --all-title-color: #2e2f42;
+  --adress-color: #434455;
+  --main-suptitle-color: #434455;
+  --footer-text-color: #e7e9fc;
 }
 body {
   font-family: "roboto", sans-serif;
-  background: #ffffff;
+  color: #ffffff;
 }
 .list {
   list-style: none;
@@ -22,11 +26,20 @@ body {
 .address-tel:hover {
   color: #404bbf;
 }
+.row-btn:hover,
+.row-btn:focus{
+  color: #404bbf;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+  color: #404bbf;
+}
 .header {
 }
 .header-navigation {
 }
 .header-logo {
+  color: var(--all-title-color);
 }
 .header-list {
 }
@@ -37,7 +50,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--all-title-color);
 }
 .address {
 }
@@ -50,14 +63,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--adress-color);
 }
 .address-tel {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:var(--adress-color);
 }
 /* --------------HERO */
 .hero {
@@ -68,17 +81,14 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
 }
 .hero-btn {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #ffffff;
 }
 /* ----------------Flower */
 .flower {
@@ -92,13 +102,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--all-title-color);
 }
-.flower-text {
+.flower-suptitle {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-suptitle-color);
 }
 /* -------------APPLE */
 .apple {
@@ -109,7 +119,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--all-title-color);
 }
 .apple-list {
 }
@@ -124,7 +134,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--all-title-color);
 }
 .sky-list {
 }
@@ -136,84 +146,92 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:var(--all-title-color);
 }
-.sky-text {
+.sky-suptitle {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-suptitle-color);
 }
 /* --------------FOOTER */
 .footer {
-  background: #2e2f42;
 }
 .footer-logo {
+  color: var(--all-title-color);
 }
 .footer-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color:var(--footer-text-color);
 }
+/* --------PORTFOLIO */
 .row {
 }
-.row-list {
-}
-.row-item {
-}
 .row-btn {
+  font-family: 'Roboto';
   font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.04em;
 cursor: pointer;
-color: #FFFFFF;
 }
 .row-all-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--all-title-color);
 }
 .row-all-suptitle {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-suptitle-color);
 }
-.row-one {
+.row-btn-list {
 }
-.row-one-list {
+.row-btn-item {
 }
-.row-one-item {
+.row-list {
 }
-.row-one-item-title {
+.row-item {
+}
+/* .row-one-item-title {
 }
 .row-one-item-suptitle {
-}
-.row-two {
-}
-.row-two-list {
-}
-.row-two-item {
 }
 .row-two-item-title {
 }
 .row-two-item-suptitle {
 }
-.row-three {
-}
-.row-three-list {
-}
-.row-three-item {
-}
 .row-three-item-title {
 }
 .row-three-item-suptitle {
 }
+.row-four-item-title {
+}
+.row-four-item-suptitle {
+}
+.row-five-item-title {
+}
+.row-five-item-suptitle {
+}
+.row-six-item-title {
+}
+.row-six-item-suptitle {
+}
+.row-seven-item-title {
+}
+.row-seven-item-suptitle {
+}
+.row-eight-item-title {
+}
+.row-eight-item-suptitle {
+}
+.row-nine-item-title {
+}
+.row-nine-item-suptitle {
+} */
