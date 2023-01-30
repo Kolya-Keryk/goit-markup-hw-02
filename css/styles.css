@@ -1,16 +1,21 @@
 :root {
+  --body-color: #ffffff;
   --all-title-color: #2e2f42;
   --adress-color: #434455;
   --main-suptitle-color: #434455;
   --footer-text-color: #e7e9fc;
   --btn-color: #ffffff;
   --section-background: #2e2f42;
-  --logo-color: #2e2f42;
+  --logo-color: #4d5ae5;
+  --h-logo-color: #2e2f42;
+  --f-logo-color: #f4f4fd;
   --btn-background-color: #4d5ae5;
+  --background-btn-portfolio: #f4f4fd;
+  --btn-portfolio-background-color: #4d5ae5;
 }
 body {
   font-family: "roboto", sans-serif;
-  color: #ffffff;
+  color: var(--body-color);
 }
 .list {
   list-style: none;
@@ -32,7 +37,8 @@ body {
 }
 .row-btn:hover,
 .row-btn:focus {
-  color: #404bbf;
+  background: #404bbf;
+  color: #ffffff;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -43,14 +49,22 @@ body {
 .header-navigation {
 }
 .header-logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 33;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+}
+.h-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--h-logo-color);
 }
 .header-list {
 }
@@ -173,14 +187,22 @@ body {
   background: var(--section-background);
 }
 .footer-logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 33;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+}
+.f-logo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--f-logo-color);
 }
 .footer-text {
   font-size: 16px;
@@ -198,8 +220,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--btn-color);
-  background-color: var(--btn-background-color);
+  color: var(--btn-portfolio-background-color);
+  background: var(--background-btn-portfolio);
 }
 .row-all-title {
   font-weight: 500;
